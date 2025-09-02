@@ -2,17 +2,6 @@
 
 A powerful AI-driven asset classification system that automatically identifies and categorizes various assets (laptops, mobile devices, cameras, televisions, etc.) using advanced web search and Google Gemini AI analysis.
 
-## Features
-
-- **Intelligent Asset Recognition**: Automatically classifies assets based on model numbers and manufacturer information
-- **Multi-Source Data Integration**: Combines web search results with AI analysis for accurate classification
-- **Batch Processing**: Process single assets or multiple assets simultaneously via JSON input
-- **Web Interface**: User-friendly Streamlit web application for interactive asset classification
-- **Command Line Interface**: Direct processing through Python scripts for automation
-- **Robust Error Handling**: Built-in retry mechanisms and fallback responses
-- **Comprehensive Logging**: Detailed logging system for monitoring and debugging
-- **Flexible Input Formats**: Support for both text input and file uploads
-
 ## System Architecture
 
 The Classify Gen system follows a modular pipeline architecture that processes asset information through multiple stages to deliver accurate classification results.
@@ -169,21 +158,6 @@ The system includes configurable parameters in `config/config.py`:
    ]
    ```
 
-### Web Interface
-
-1. **Launch the Streamlit app**:
-   ```bash
-   streamlit run app.py
-   ```
-
-2. **Access the web interface** at `http://localhost:8501`
-
-3. **Choose input method**:
-   - **Text Input**: Enter asset details directly
-   - **File Upload**: Upload a text file with asset information
-
-4. **Select classification type** and click "Classify"
-
 ### Python API Usage
 
 ```python
@@ -208,21 +182,11 @@ print(result)
 
 ## Future Improvements
 
-- **Database Integration**: Add support for storing classification results in databases (PostgreSQL, MongoDB)
 - **Advanced ML Models**: Integrate additional machine learning models for improved accuracy
 - **Image Recognition**: Add capability to classify assets from images
-- **API Endpoints**: Develop REST API for integration with other systems
 - **Bulk Import**: Support for CSV and Excel file imports
-- **Classification Confidence Scores**: Add confidence metrics to classification results
-- **Custom Classification Categories**: Allow users to define custom asset categories
 - **Real-time Processing**: Implement real-time asset classification streaming
 - **Multi-language Support**: Add support for asset information in multiple languages
-- **Performance Optimization**: Implement caching and parallel processing for large datasets
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 **Note**: This project requires valid API keys for Tavily and Google Gemini services. Please ensure you have proper API access and follow the respective terms of service for these platforms.
