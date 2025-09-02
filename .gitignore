@@ -7,9 +7,6 @@ __pycache__/
 venv/
 .env
 
-# Logs
-logs/
-*.log
 
 # IDE / Editor settings
 .vscode/
