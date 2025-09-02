@@ -1,0 +1,19 @@
+# LLM Framework
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+
+# Environment Variables
+python-dotenv
+
+# Vector Databases
+chromadb
+
+# Data Processing
+pandas
+numpy
+
+# Web UI
+streamlit
+

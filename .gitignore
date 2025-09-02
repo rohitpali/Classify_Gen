@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Logs
+logs/
+*.log
+
+# Inputs / Outputs
+input.json
+output.json
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python packaging / build
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
