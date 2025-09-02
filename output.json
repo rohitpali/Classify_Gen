@@ -1,0 +1,51 @@
+[
+    {
+        "asset_classification": "Laptop",
+        "manufacturer": "Dell",
+        "model_number": "XPS 13 9310",
+        "product_line": "",
+        "summary": "The Dell XPS 13 9310 is a Laptop, designed for general computing tasks and mobile productivity."
+    },
+    {
+        "asset_classification": "Laptop",
+        "manufacturer": "HP",
+        "model_number": "Pavilion 15-eg0070",
+        "product_line": "",
+        "summary": "The HP Pavilion 15-eg0070 is a Laptop, designed for general computing tasks."
+    },
+    {
+        "asset_classification": "Camera",
+        "manufacturer": "Canon",
+        "model_number": "EOS 90D",
+        "product_line": "",
+        "summary": "The Canon EOS 90D is a Camera categorized under , designed for photography and videography."
+    },
+    {
+        "asset_classification": "Mobile",
+        "manufacturer": "Apple",
+        "model_number": "A2890",
+        "product_line": "",
+        "summary": "The Apple A2890 is a Mobile categorized under , designed for general mobile computing tasks."
+    },
+    {
+        "asset_classification": "Mobile",
+        "manufacturer": "Samsung",
+        "model_number": "SM-S911B",
+        "product_line": "",
+        "summary": "The Samsung SM-S911B is a Mobile, designed for general mobile communication and applications."
+    },
+    {
+        "asset_classification": "Laptop",
+        "manufacturer": "Lenovo",
+        "model_number": "X1 Carbon Gen 9",
+        "product_line": "",
+        "summary": "The Lenovo X1 Carbon Gen 9 is a Laptop, designed for general computing tasks and productivity."
+    },
+    {
+        "asset_classification": "Television",
+        "manufacturer": "Sony",
+        "model_number": "XR-55A80K",
+        "product_line": "",
+        "summary": "The Sony XR-55A80K is a Television, designed for high-quality home entertainment."
+    }
+]

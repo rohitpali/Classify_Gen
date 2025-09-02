@@ -1,0 +1,44 @@
+[
+  {
+    "model_number": "XPS 13 9310",
+    "asset_classification_name": "Laptop",
+    "manufacturer": "Dell",
+    "asset_classification_guid2": ""
+  },
+  {
+    "model_number": "Pavilion 15-eg0070",
+    "asset_classification_name": "Laptop",
+    "manufacturer": "HP",
+    "asset_classification_guid2": ""
+  },
+  {
+    "model_number": "EOS 90D",
+    "asset_classification_name": "Camera",
+    "manufacturer": "Canon",
+    "asset_classification_guid2": ""
+  },
+  {
+    "model_number": "A2890",
+    "asset_classification_name": "Mobile",
+    "manufacturer": "Apple",
+    "asset_classification_guid2": ""
+  },
+  {
+    "model_number": "SM-S911B",
+    "asset_classification_name": "Mobile",
+    "manufacturer": "Samsung",
+    "asset_classification_guid2": ""
+  },
+  {
+    "model_number": "X1 Carbon Gen 9",
+    "asset_classification_name": "Laptop",
+    "manufacturer": "Lenovo",
+    "asset_classification_guid2": ""
+  },
+  {
+    "model_number": "XR-55A80K",
+    "asset_classification_name": "Television",
+    "manufacturer": "Sony",
+    "asset_classification_guid2": ""
+  }
+]

@@ -1,0 +1,361 @@
+2025-09-01 12:35:23,008 - INFO - Started...
+2025-09-01 12:35:25,083 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:35:26,483 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:35:27,883 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:35:27,885 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:35:33,191 - INFO - \u2705 Output saved to output.json successfully.
+2025-09-01 12:35:33,192 - INFO - Finished...
+
+2025-09-01 12:36:35,879 - INFO - Started...
+2025-09-01 12:36:37,566 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:36:39,530 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:36:41,049 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:36:41,051 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:36:44,433 - INFO - \u2705 Output saved to output.json successfully.
+2025-09-01 12:36:44,433 - INFO - Finished...
+
+2025-09-01 12:40:42,933 - INFO - Started...
+2025-09-01 12:40:42,933 - ERROR - \u274c Process failed: CustomException: Missing required field: input
+Traceback (most recent call last):
+  File "F:\3.Projects\Classify Gen\main.py", line 71, in <module>
+    result = process_input(input_data)
+  File "F:\3.Projects\Classify Gen\main.py", line 20, in process_input
+    validate_input(input_data)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "F:\3.Projects\Classify Gen\main.py", line 16, in validate_input
+    raise CustomException(f"Missing required field: {field}")
+utils.custom_exception.CustomException: CustomException: Missing required field: input
+2025-09-01 12:40:42,934 - INFO - Finished...
+
+2025-09-01 12:43:05,138 - INFO - Started...
+2025-09-01 12:43:05,139 - ERROR - \u274c Process failed: CustomException: Missing required field: input
+Traceback (most recent call last):
+  File "F:\3.Projects\Classify Gen\main.py", line 71, in <module>
+    result = process_input(input_data)
+  File "F:\3.Projects\Classify Gen\main.py", line 20, in process_input
+    validate_input(input_data)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "F:\3.Projects\Classify Gen\main.py", line 16, in validate_input
+    raise CustomException(f"Missing required field: {field}")
+utils.custom_exception.CustomException: CustomException: Missing required field: input
+2025-09-01 12:43:05,140 - INFO - Finished...
+
+2025-09-01 12:45:54,235 - INFO - Started...
+2025-09-01 12:45:54,235 - ERROR -  Process failed: CustomException: Missing required field: input
+Traceback (most recent call last):
+  File "F:\3.Projects\Classify Gen\main.py", line 71, in <module>
+    result = process_input(input_data)
+  File "F:\3.Projects\Classify Gen\main.py", line 20, in process_input
+    validate_input(input_data)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "F:\3.Projects\Classify Gen\main.py", line 16, in validate_input
+    raise CustomException(f"Missing required field: {field}")
+utils.custom_exception.CustomException: CustomException: Missing required field: input
+2025-09-01 12:45:54,236 - INFO - Finished...
+
+2025-09-01 12:48:27,700 - INFO - Started...
+2025-09-01 12:48:29,366 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:31,792 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:36,007 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:36,008 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:48:39,787 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:42,267 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:43,993 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:43,994 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:48:47,676 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:49,556 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:51,264 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:51,266 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:48:54,859 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:56,692 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:58,558 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:48:58,560 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:49:02,056 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:03,557 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:05,089 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:05,091 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:49:09,082 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:10,721 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:12,361 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:12,363 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:49:16,255 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:17,937 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:19,740 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 12:49:19,741 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 12:49:21,639 - INFO -  Output saved to output.json successfully.
+2025-09-01 12:49:21,639 - INFO - Finished...
+
+2025-09-01 13:31:14,735 - INFO - Started...
+2025-09-01 13:31:14,735 - ERROR - \u274c Process failed: CustomException: Missing required field: input
+Traceback (most recent call last):
+  File "F:\3.Projects\Classify Gen\main.py", line 40, in <module>
+    result = process_input(input_data)
+  File "F:\3.Projects\Classify Gen\main.py", line 20, in process_input
+    validate_input(input_data)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "F:\3.Projects\Classify Gen\main.py", line 15, in validate_input
+    raise CustomException(f"Missing required field: {field}")
+utils.custom_exception.CustomException: CustomException: Missing required field: input
+2025-09-01 13:31:14,736 - INFO - Finished...
+
+2025-09-01 13:38:15,706 - INFO - Started...
+2025-09-01 13:38:15,839 - WARNING - Attempt 1 failed: HTTPSConnectionPool(host='api.tavily.com', port=443): Max retries exceeded with url: /search?query=Dell+XPS+13&num_results=5 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD65DE4EC0>: Failed to resolve 'api.tavily.com' ([Errno 11001] getaddrinfo failed)"))
+2025-09-01 13:38:17,848 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:19,437 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:19,439 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 13:38:22,916 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:24,923 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:26,609 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:26,610 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 13:38:30,110 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:31,830 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:33,709 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:33,710 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 13:38:37,318 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:39,010 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:40,839 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:40,840 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 13:38:44,934 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:46,806 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:48,443 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:48,443 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 13:38:52,286 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:53,744 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:55,381 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:38:55,383 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 13:38:58,883 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:39:00,809 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:39:02,569 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 13:39:02,572 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 13:39:04,397 - INFO - \u2705 Output saved to output.json successfully.
+2025-09-01 13:39:04,397 - INFO - Finished...
+
+2025-09-01 18:51:39,554 - INFO - Started...
+2025-09-01 18:51:41,684 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:51:43,483 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:51:45,489 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:51:45,491 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 18:51:50,889 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:51:52,698 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:51:54,863 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:51:54,865 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 18:51:59,402 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:01,134 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:03,132 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:03,134 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 18:52:07,533 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:09,267 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:11,248 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:11,250 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 18:52:15,956 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:17,653 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:19,650 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:19,651 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 18:52:23,733 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:25,351 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:27,435 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:27,436 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 18:52:31,446 - WARNING - Attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:33,039 - WARNING - Attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:34,658 - WARNING - Attempt 3 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-01 18:52:34,659 - ERROR - No data found after retries. Proceeding with empty values.
+2025-09-01 18:52:36,990 - INFO - \u2705 Output saved to output.json successfully.
+2025-09-01 18:52:36,990 - INFO - Finished...
+
+2025-09-02 12:39:44,597 - INFO - Started...
+2025-09-02 12:39:44,597 - ERROR - \u274c Process failed: CustomException: Missing required field in input 1: model_number
+Traceback (most recent call last):
+  File "F:\3.Projects\Classify Gen\main.py", line 48, in <module>
+    result = process_input(input_data)
+  File "F:\3.Projects\Classify Gen\main.py", line 20, in process_input
+    validate_input(input_data)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "F:\3.Projects\Classify Gen\main.py", line 17, in validate_input
+    raise CustomException(f"Missing required field in input {i}: {f}")
+utils.custom_exception.CustomException: CustomException: Missing required field in input 1: model_number
+2025-09-02 12:39:44,598 - INFO - Finished...
+
+2025-09-02 12:43:18,293 - INFO - \U0001f680 Started Classify Gen pipeline
+2025-09-02 12:43:18,296 - ERROR - \u274c Validation failed: CustomException: Missing required field in input 1: model_number
+2025-09-02 12:43:18,296 - INFO - \U0001f3c1 Finished.
+
+2025-09-02 12:47:38,119 - INFO - \U0001f680 Started Classify Gen pipeline
+2025-09-02 12:47:38,119 - INFO - Input received | model_number=XPS 13 9310 | asset_classification_name=Laptop | manufacturer=Dell
+2025-09-02 12:47:38,119 - INFO - Tavily attempt 1 | query='XPS 13 9310 Dell Laptop'
+2025-09-02 12:47:40,281 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:47:41,283 - INFO - Tavily attempt 2 | query='XPS 13 9310 Dell Laptop'
+2025-09-02 12:47:42,782 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:47:43,785 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 12:47:43,785 - INFO - Gemini attempt 1
+2025-09-02 12:47:46,520 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 12:47:46,520 - INFO - Input received | model_number=Pavilion 15-eg0070 | asset_classification_name=Laptop | manufacturer=HP
+2025-09-02 12:47:46,520 - INFO - Tavily attempt 1 | query='Pavilion 15-eg0070 HP Laptop'
+2025-09-02 12:47:48,075 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:47:49,078 - INFO - Tavily attempt 2 | query='Pavilion 15-eg0070 HP Laptop'
+2025-09-02 12:47:50,600 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:47:51,602 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 12:47:51,603 - INFO - Gemini attempt 1
+2025-09-02 12:47:52,826 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 12:47:52,826 - INFO - Input received | model_number=EOS 90D | asset_classification_name=Camera | manufacturer=Canon
+2025-09-02 12:47:52,826 - INFO - Tavily attempt 1 | query='EOS 90D Canon Camera'
+2025-09-02 12:47:54,850 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:47:55,852 - INFO - Tavily attempt 2 | query='EOS 90D Canon Camera'
+2025-09-02 12:47:57,557 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:47:58,559 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 12:47:58,559 - INFO - Gemini attempt 1
+2025-09-02 12:47:59,553 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 12:47:59,553 - INFO - Input received | model_number=A2890 | asset_classification_name=Mobile | manufacturer=Apple
+2025-09-02 12:47:59,553 - INFO - Tavily attempt 1 | query='A2890 Apple Mobile'
+2025-09-02 12:48:00,861 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:48:01,862 - INFO - Tavily attempt 2 | query='A2890 Apple Mobile'
+2025-09-02 12:48:03,397 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:48:04,399 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 12:48:04,400 - INFO - Gemini attempt 1
+2025-09-02 12:48:05,658 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 12:48:05,659 - INFO - Input received | model_number=SM-S911B | asset_classification_name=Mobile | manufacturer=Samsung
+2025-09-02 12:48:05,659 - INFO - Tavily attempt 1 | query='SM-S911B Samsung Mobile'
+2025-09-02 12:48:07,395 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:48:08,397 - INFO - Tavily attempt 2 | query='SM-S911B Samsung Mobile'
+2025-09-02 12:48:09,958 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:48:10,961 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 12:48:10,961 - INFO - Gemini attempt 1
+2025-09-02 12:48:11,876 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 12:48:11,876 - INFO - Input received | model_number=X1 Carbon Gen 9 | asset_classification_name=Laptop | manufacturer=Lenovo
+2025-09-02 12:48:11,876 - INFO - Tavily attempt 1 | query='X1 Carbon Gen 9 Lenovo Laptop'
+2025-09-02 12:48:13,556 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:48:14,559 - INFO - Tavily attempt 2 | query='X1 Carbon Gen 9 Lenovo Laptop'
+2025-09-02 12:48:15,995 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:48:16,997 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 12:48:16,998 - INFO - Gemini attempt 1
+2025-09-02 12:48:17,953 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 12:48:17,953 - INFO - Input received | model_number=XR-55A80K | asset_classification_name=Television | manufacturer=Sony
+2025-09-02 12:48:17,954 - INFO - Tavily attempt 1 | query='XR-55A80K Sony Television'
+2025-09-02 12:48:19,578 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:48:20,581 - INFO - Tavily attempt 2 | query='XR-55A80K Sony Television'
+2025-09-02 12:48:22,160 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 12:48:23,162 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 12:48:23,162 - INFO - Gemini attempt 1
+2025-09-02 12:48:24,065 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 12:48:24,069 - INFO - \u2705 Output saved successfully to output.json
+2025-09-02 12:48:24,069 - INFO - \U0001f3c1 Finished.
+
+2025-09-02 13:00:28,026 - INFO - \U0001f680 Started Classify Gen pipeline
+2025-09-02 13:00:28,027 - INFO - Input received | model_number=XPS 13 9310 | asset_classification_name=Laptop | manufacturer=Dell
+2025-09-02 13:00:28,027 - INFO - Tavily attempt 1 | query='XPS 13 9310 Dell Laptop'
+2025-09-02 13:00:30,271 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:31,274 - INFO - Tavily attempt 2 | query='XPS 13 9310 Dell Laptop'
+2025-09-02 13:00:32,985 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:33,986 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:00:33,987 - INFO - Gemini attempt 1
+2025-09-02 13:00:35,677 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:00:35,677 - INFO - Input received | model_number=Pavilion 15-eg0070 | asset_classification_name=Laptop | manufacturer=HP
+2025-09-02 13:00:35,677 - INFO - Tavily attempt 1 | query='Pavilion 15-eg0070 HP Laptop'
+2025-09-02 13:00:37,263 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:38,265 - INFO - Tavily attempt 2 | query='Pavilion 15-eg0070 HP Laptop'
+2025-09-02 13:00:39,987 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:40,990 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:00:40,990 - INFO - Gemini attempt 1
+2025-09-02 13:00:42,955 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:00:42,956 - INFO - Input received | model_number=EOS 90D | asset_classification_name=Camera | manufacturer=Canon
+2025-09-02 13:00:42,956 - INFO - Tavily attempt 1 | query='EOS 90D Canon Camera'
+2025-09-02 13:00:44,262 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:45,264 - INFO - Tavily attempt 2 | query='EOS 90D Canon Camera'
+2025-09-02 13:00:46,791 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:47,792 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:00:47,793 - INFO - Gemini attempt 1
+2025-09-02 13:00:48,961 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:00:48,961 - INFO - Input received | model_number=A2890 | asset_classification_name=Mobile | manufacturer=Apple
+2025-09-02 13:00:48,961 - INFO - Tavily attempt 1 | query='A2890 Apple Mobile'
+2025-09-02 13:00:50,376 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:51,378 - INFO - Tavily attempt 2 | query='A2890 Apple Mobile'
+2025-09-02 13:00:52,962 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:53,966 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:00:53,967 - INFO - Gemini attempt 1
+2025-09-02 13:00:55,154 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:00:55,154 - INFO - Input received | model_number=SM-S911B | asset_classification_name=Mobile | manufacturer=Samsung
+2025-09-02 13:00:55,154 - INFO - Tavily attempt 1 | query='SM-S911B Samsung Mobile'
+2025-09-02 13:00:56,464 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:57,467 - INFO - Tavily attempt 2 | query='SM-S911B Samsung Mobile'
+2025-09-02 13:00:58,875 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:00:59,878 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:00:59,878 - INFO - Gemini attempt 1
+2025-09-02 13:01:01,059 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:01:01,059 - INFO - Input received | model_number=X1 Carbon Gen 9 | asset_classification_name=Laptop | manufacturer=Lenovo
+2025-09-02 13:01:01,060 - INFO - Tavily attempt 1 | query='X1 Carbon Gen 9 Lenovo Laptop'
+2025-09-02 13:01:02,866 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:01:03,869 - INFO - Tavily attempt 2 | query='X1 Carbon Gen 9 Lenovo Laptop'
+2025-09-02 13:01:05,363 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:01:06,364 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:01:06,364 - INFO - Gemini attempt 1
+2025-09-02 13:01:07,374 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:01:07,374 - INFO - Input received | model_number=XR-55A80K | asset_classification_name=Television | manufacturer=Sony
+2025-09-02 13:01:07,374 - INFO - Tavily attempt 1 | query='XR-55A80K Sony Television'
+2025-09-02 13:01:08,715 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:01:09,716 - INFO - Tavily attempt 2 | query='XR-55A80K Sony Television'
+2025-09-02 13:01:11,265 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:01:12,266 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:01:12,267 - INFO - Gemini attempt 1
+2025-09-02 13:01:13,422 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:01:13,426 - INFO - \u2705 Output saved successfully to output.json
+2025-09-02 13:01:13,426 - INFO - \U0001f3c1 Finished.
+
+2025-09-02 13:47:05,254 - INFO - Started Classify Gen pipeline
+2025-09-02 13:47:05,254 - INFO - Input received | model_number=XPS 13 9310 | asset_classification_name=Laptop | manufacturer=Dell
+2025-09-02 13:47:05,255 - INFO - Tavily attempt 1 | query='XPS 13 9310 Dell Laptop'
+2025-09-02 13:47:07,787 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:08,788 - INFO - Tavily attempt 2 | query='XPS 13 9310 Dell Laptop'
+2025-09-02 13:47:10,413 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:11,415 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:47:11,415 - INFO - Gemini attempt 1
+2025-09-02 13:47:13,691 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:47:13,692 - INFO - Input received | model_number=Pavilion 15-eg0070 | asset_classification_name=Laptop | manufacturer=HP
+2025-09-02 13:47:13,692 - INFO - Tavily attempt 1 | query='Pavilion 15-eg0070 HP Laptop'
+2025-09-02 13:47:15,513 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:16,514 - INFO - Tavily attempt 2 | query='Pavilion 15-eg0070 HP Laptop'
+2025-09-02 13:47:18,088 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:19,090 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:47:19,090 - INFO - Gemini attempt 1
+2025-09-02 13:47:20,788 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:47:20,788 - INFO - Input received | model_number=EOS 90D | asset_classification_name=Camera | manufacturer=Canon
+2025-09-02 13:47:20,788 - INFO - Tavily attempt 1 | query='EOS 90D Canon Camera'
+2025-09-02 13:47:22,099 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:23,101 - INFO - Tavily attempt 2 | query='EOS 90D Canon Camera'
+2025-09-02 13:47:24,693 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:25,694 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:47:25,694 - INFO - Gemini attempt 1
+2025-09-02 13:47:26,806 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:47:26,806 - INFO - Input received | model_number=A2890 | asset_classification_name=Mobile | manufacturer=Apple
+2025-09-02 13:47:26,806 - INFO - Tavily attempt 1 | query='A2890 Apple Mobile'
+2025-09-02 13:47:28,587 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:29,588 - INFO - Tavily attempt 2 | query='A2890 Apple Mobile'
+2025-09-02 13:47:31,112 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:32,113 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:47:32,113 - INFO - Gemini attempt 1
+2025-09-02 13:47:33,287 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:47:33,288 - INFO - Input received | model_number=SM-S911B | asset_classification_name=Mobile | manufacturer=Samsung
+2025-09-02 13:47:33,288 - INFO - Tavily attempt 1 | query='SM-S911B Samsung Mobile'
+2025-09-02 13:47:34,812 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:35,813 - INFO - Tavily attempt 2 | query='SM-S911B Samsung Mobile'
+2025-09-02 13:47:37,706 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:38,708 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:47:38,708 - INFO - Gemini attempt 1
+2025-09-02 13:47:39,968 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:47:39,968 - INFO - Input received | model_number=X1 Carbon Gen 9 | asset_classification_name=Laptop | manufacturer=Lenovo
+2025-09-02 13:47:39,968 - INFO - Tavily attempt 1 | query='X1 Carbon Gen 9 Lenovo Laptop'
+2025-09-02 13:47:41,660 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:42,661 - INFO - Tavily attempt 2 | query='X1 Carbon Gen 9 Lenovo Laptop'
+2025-09-02 13:47:46,159 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:47,162 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:47:47,163 - INFO - Gemini attempt 1
+2025-09-02 13:47:48,347 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:47:48,347 - INFO - Input received | model_number=XR-55A80K | asset_classification_name=Television | manufacturer=Sony
+2025-09-02 13:47:48,347 - INFO - Tavily attempt 1 | query='XR-55A80K Sony Television'
+2025-09-02 13:47:50,529 - WARNING - Tavily attempt 1 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:51,532 - INFO - Tavily attempt 2 | query='XR-55A80K Sony Television'
+2025-09-02 13:47:53,640 - WARNING - Tavily attempt 2 failed: Tavily API Error: {"detail":"Method Not Allowed"}
+2025-09-02 13:47:54,642 - WARNING - No Tavily results; proceeding with empty context.
+2025-09-02 13:47:54,643 - INFO - Gemini attempt 1
+2025-09-02 13:47:56,032 - INFO - \u2705 Gemini succeeded on attempt 1
+2025-09-02 13:47:56,033 - INFO - Output saved successfully to output.json
+2025-09-02 13:47:56,034 - INFO -  Finished.
+
