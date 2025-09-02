@@ -11,10 +11,6 @@ venv/
 logs/
 *.log
 
-# Inputs / Outputs
-input.json
-output.json
-
 # IDE / Editor settings
 .vscode/
 .idea/
